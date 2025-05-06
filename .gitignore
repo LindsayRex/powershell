@@ -1,0 +1,57 @@
+# PowerShell specific
+powershell.code-workspace
+*.ps1.log
+
+# PowerShell module files
+*.psd1
+*.psm1
+*.ps1xml
+*.pssc
+*.cdxml
+
+# PowerShell build output
+*.dll
+*.exe
+*.msi
+*.zip
+*.7z
+
+# PowerShell module development
+Output/
+obj/
+bin/
+
+# PowerShell Studio files
+*.psprojs
+*.psproj
+*.TempPoint.*
+
+# Package management
+packages/
+*.nupkg
+
+# Local configuration files
+appsettings.local.json
+*.local.ps1
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*~
+*.bak
+*.tmp
+*.swp
+
+# VSCode specific
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Operating System Files
+.DS_Store
+Thumbs.db
